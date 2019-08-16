@@ -1,1 +1,15 @@
 // Mixins Here
+
+.displayFlex(@flex ; @justify ; @align){
+    display:@flex;
+    justify-content: @justify;
+    align-content: @align;
+}
+
+.flexFlow(@row ; @wrap;){
+    .flexFlow(@row, @wrap)
+}
+
+.buttonStyle(@width; @type; @color;){
+    border:@width @type @color;
+}
